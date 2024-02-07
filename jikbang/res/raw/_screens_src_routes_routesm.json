@@ -1,0 +1,560 @@
+[
+	{
+		"url_path": "/",
+		"pages": "index",
+		"name": "Index"
+	},
+	{
+		"url_path": "/profiles/:user_no",
+		"pages": "profiles/detail",
+		"name": "ProfilesDetail"
+	},
+	{
+		"url_path": "/items/:item_id(\\d+)",
+		"pages": "items/detail",
+		"name": "ItemsDetail"
+	},
+	{
+		"url_path": "/home",
+		"pages": "home",
+		"name": "Home"
+	},
+	{
+		"url_path": "/home/apt",
+		"pages": "home/apt",
+		"name": "HomeApt"
+	},
+	{
+		"url_path": "/home/apt/map",
+		"pages": "home/apt_map",
+		"name": "HomeAptMap"
+	},
+	{
+		"url_path": "/home/apt/map/offer",
+		"pages": "home/apt_map_offer",
+		"name": "HomeAptMapOffer"
+	},
+	{
+		"url_path": "/home/apt/map/filter",
+		"pages": "home/apt_map_filter",
+		"name": "HomeAptMapFilter"
+	},
+	{
+		"url_path": "/home/apt/danjis/:area_danji_id(\\d+)",
+		"pages": "home/apt_danjis_detail",
+		"name": "HomeAptDanjisDetail"
+	},
+	{
+		"url_path": "/home/apt/items/recent",
+		"pages": "home/apt_items_recent",
+		"name": "HomeAptItemsRecent"
+	},
+	{
+		"url_path": "/home/apt/danjis/vr",
+		"pages": "home/apt_danjis_vr",
+		"name": "HomeAptDanjisVr"
+	},
+	{
+		"url_path": "/home/apt/danjis/offer",
+		"pages": "home/apt_danjis_offer",
+		"name": "HomeAptDanjisOffer"
+	},
+	{
+		"url_path": "/home/apt/danjis/:area_danji_id(\\d+)/info",
+		"pages": "home/apt_danjis_info",
+		"name": "HomeAptDanjiInfoEdit"
+	},
+	{
+		"url_path": "/home/apt/map/population",
+		"pages": "home/apt_map_population",
+		"name": "HomeAptMapPopulation"
+	},
+	{
+		"url_path": "/home/apt/map/population/filter",
+		"pages": "home/apt_map_population_filter",
+		"name": "HomeAptMapPopulationFilter"
+	},
+	{
+		"url_path": "/home/apt/danjis/:area_danji_id(\\d+)/reviews",
+		"pages": "home/apt_danjis_reviews",
+		"name": "HomeAptDanjisReviews"
+	},
+	{
+		"url_path": "/home/apt/danjis/:area_danji_id(\\d+)/reviews/add",
+		"pages": "home/apt_danjis_reviews_add",
+		"name": "HomeAptDanjisReviewsAdd"
+	},
+	{
+		"url_path": "/home/apt/danjis/:area_danji_id(\\d+)/contents",
+		"pages": "home/apt_danjis_contents",
+		"name": "HomeAptDanjisContents"
+	},
+	{
+		"url_path": "/home/apt/subways/:ad_region_v1_id(\\d+)",
+		"pages": "home/apt_subways_detail",
+		"name": "HomeAptSubwaysDetail"
+	},
+	{
+		"url_path": "/home/apt/subways/:ad_region_v1_id(\\d+)/danjis",
+		"pages": "home/apt_subways_danjis",
+		"name": "HomeAptSubwaysDanjis"
+	},
+	{
+		"url_path": "/home/apt/locals/:pnu(\\d+)",
+		"pages": "home/apt_locals_detail",
+		"name": "HomeAptLocalsDetail"
+	},
+	{
+		"url_path": "/home/apt/locals/:pnu(\\d+)/danjis",
+		"pages": "home/apt_locals_danjis",
+		"name": "HomeAptLocalsDanjis"
+	},
+	{
+		"url_path": "/home/apt/schools/:school_code",
+		"pages": "home/apt_schools_detail",
+		"name": "HomeAptSchoolsDetail"
+	},
+	{
+		"url_path": "/home/apt/schools/:school_id(\\d+)/danjis",
+		"pages": "home/apt_schools_danjis",
+		"name": "HomeAptSchoolsDanjis"
+	},
+	{
+		"url_path": "/home/apt/subscriptions",
+		"pages": "home/apt_subscriptions",
+		"name": "HomeAptSubscriptions"
+	},
+	{
+		"url_path": "/home/apt/vr/:room_type_id(\\d+)",
+		"pages": "home/apt_vr_detail",
+		"name": "HomeAptVrDetail"
+	},
+	{
+		"url_path": "/home/apt/locals_danjis_tab",
+		"pages": "home/apt_locals_danjis_tab",
+		"name": "HomeAptLocalsDanjisTab"
+	},
+	{
+		"url_path": "/home/villa/map",
+		"pages": "home/villa_map",
+		"name": "HomeVillaMap"
+	},
+	{
+		"url_path": "/home/villa/map/filter",
+		"pages": "home/villa_map_filter",
+		"name": "HomeVillaMapFilter"
+	},
+	{
+		"url_path": "/home/message",
+		"pages": "home/message",
+		"name": "HomeMessage"
+	},
+	{
+		"url_path": "/home/villa",
+		"pages": "home/villa",
+		"name": "HomeVilla"
+	},
+	{
+		"url_path": "/home/villa/items",
+		"pages": "home/villa_items",
+		"name": "HomeVillaItems"
+	},
+	{
+		"url_path": "/home/villa/inquiry/tour",
+		"pages": "home/villa_inquiry_tour",
+		"name": "HomeVillaInquiryTour"
+	},
+	{
+		"url_path": "/home/villa/danjis/:danji_id(\\d+)",
+		"pages": "home/villa_danjis_detail",
+		"name": "HomeVillaDanjisDetail"
+	},
+	{
+		"url_path": "/home/villa/danjis/recent",
+		"pages": "home/villa_danjis_recent",
+		"name": "HomeVillaDanjisRecent"
+	},
+	{
+		"url_path": "/home/villa/items/:item_id(\\d+)",
+		"pages": "home/villa_items_detail",
+		"name": "HomeVillaItemsDetail",
+		"params": {
+			"item_category": "빌라"
+		}
+	},
+	{
+		"url_path": "/home/villa/building/:building_id(\\d+)",
+		"pages": "home/villa_building_detail",
+		"name": "HomeVillaBuildingDetail"
+	},
+	{
+		"url_path": "/home/villa/items/recent",
+		"pages": "home/villa_items_recent",
+		"name": "HomeVillaItemsRecent"
+	},
+	{
+		"url_path": "/home/villa/subways/:ad_region_v1_id/items",
+		"pages": "home/villa_subways_items",
+		"name": "HomeVillaSubwayItems"
+	},
+	{
+		"url_path": "/home/villa/items/zzim",
+		"pages": "home/villa_items_zzim",
+		"name": "HomeVillaItemsZzim"
+	},
+	{
+		"url_path": "/home/villa/items/photos",
+		"pages": "home/items_photos",
+		"name": "HomeVillaItemsPhotos"
+	},
+	{
+		"url_path": "/home/villa/schools/:school_code",
+		"pages": "home/villa_schools_detail",
+		"name": "HomeVillaSchoolsDetail"
+	},
+	{
+		"url_path": "/home/villa/items/popular",
+		"pages": "home/villa_items_popular",
+		"name": "HomeVillarItemsPopular"
+	},
+	{
+		"url_path": "/home/oneroom",
+		"pages": "home/oneroom",
+		"name": "HomeOneroom"
+	},
+	{
+		"url_path": "/home/oneroom/map",
+		"pages": "home/oneroom_map",
+		"name": "HomeOneroomMap"
+	},
+	{
+		"url_path": "/home/oneroom/map/filter",
+		"pages": "home/oneroom_map_filter",
+		"name": "HomeOneroomMapFilter"
+	},
+	{
+		"url_path": "/home/oneroom/items",
+		"pages": "home/oneroom_items",
+		"name": "HomeOneroomItems"
+	},
+	{
+		"url_path": "/home/oneroom/items/:item_id(\\d+)",
+		"pages": "home/oneroom_items_detail",
+		"name": "HomeOneroomItemsDetail",
+		"params": {
+			"item_category": "원룸"
+		}
+	},
+	{
+		"url_path": "/home/oneroom/items/recent",
+		"pages": "home/oneroom_items_recent",
+		"name": "HomeOneroomItemsRecent"
+	},
+	{
+		"url_path": "/home/oneroom/subways/:ad_region_v1_id/items",
+		"pages": "home/oneroom_subways_items",
+		"name": "HomeOneroomSubwayItems"
+	},
+	{
+		"url_path": "/home/oneroom/items/zzim",
+		"pages": "home/oneroom_items_zzim",
+		"name": "HomeOneroomItemsZzim"
+	},
+	{
+		"url_path": "/home/oneroom/items/photos",
+		"pages": "home/items_photos",
+		"name": "HomeOneroomItemsPhotos"
+	},
+	{
+		"url_path": "/home/oneroom/schools/:school_code",
+		"pages": "home/oneroom_schools_detail",
+		"name": "HomeOneroomSchoolsDetail"
+	},
+	{
+		"url_path": "/home/oneroom/items/popular",
+		"pages": "home/oneroom_items_popular",
+		"name": "HomeOneroomItemsPopular"
+	},
+	{
+		"url_path": "/home/officetel",
+		"pages": "home/officetel",
+		"name": "HomeOfficetel"
+	},
+	{
+		"url_path": "/home/officetel/map",
+		"pages": "home/officetel_map",
+		"name": "HomeOfficetelMap"
+	},
+	{
+		"url_path": "/home/officetel/map/filter",
+		"pages": "home/officetel_map_filter",
+		"name": "HomeOfficetelMapFilter"
+	},
+	{
+		"url_path": "/home/officetel/items",
+		"pages": "home/officetel_items",
+		"name": "HomeOfficetelItems"
+	},
+	{
+		"url_path": "/home/officetel/danjis/:area_danji_id/items",
+		"pages": "home/officetel_danjis_items",
+		"name": "HomeOfficetelDanjisItems"
+	},
+	{
+		"url_path": "/home/officetel/subways/:ad_region_v1_id/items",
+		"pages": "home/officetel_subways_items",
+		"name": "HomeOfficetelSubwayItems"
+	},
+	{
+		"url_path": "/home/officetel/items/:item_id(\\d+)",
+		"pages": "home/officetel_items_detail",
+		"name": "HomeOfficetelItemsDetail",
+		"params": {
+			"item_category": "오피스텔"
+		}
+	},
+	{
+		"url_path": "/home/officetel/items/recent",
+		"pages": "home/officetel_items_recent",
+		"name": "HomeOfficetelRecent"
+	},
+	{
+		"url_path": "/home/officetel/items/zzim",
+		"pages": "home/officetel_items_zzim",
+		"name": "HomeOfficetelItemsZzim"
+	},
+	{
+		"url_path": "/home/officetel/items/photos",
+		"pages": "home/items_photos",
+		"name": "HomeOfficetelItemsPhotos"
+	},
+	{
+		"url_path": "/home/officetel/schools/:school_code",
+		"pages": "home/officetel_schools_detail",
+		"name": "HomeOfficetelSchoolsDetail"
+	},
+	{
+		"url_path": "/home/officetel/items/popular",
+		"pages": "home/officetel_items_popular",
+		"name": "HomeOfficetelItemsPopular"
+	},
+	{
+		"url_path": "/search/destination/:bjd_code",
+		"pages": "search/destination",
+		"name": "SearchDestination"
+	},
+	{
+		"url_path": "/error",
+		"pages": "error/empty_item",
+		"name": "ErrorEmptyItem"
+	},
+	{
+		"url_path": "/error/404",
+		"pages": "error/404",
+		"name": "Error404"
+	},
+	{
+		"url_path": "/error/parking",
+		"pages": "error/parking",
+		"name": "ErrorParking"
+	},
+	{
+		"url_path": "/error/unsupport",
+		"pages": "error/unsupport",
+		"name": "ErrorUnspport"
+	},
+	{
+		"url_path": "/home/inquiry",
+		"pages": "home/inquiry_intro",
+		"name": "HomeInquiryIntro"
+	},
+	{
+		"url_path": "/home/inquiry/items",
+		"pages": "home/inquiry_items",
+		"name": "HomeInquiryItems"
+	},
+	{
+		"url_path": "/home/inquiry/add",
+		"pages": "home/inquiry_add",
+		"name": "HomeInquiryAdd"
+	},
+	{
+		"url_path": "/event/rent/monthly_support",
+		"pages": "event/monthly_rent_support",
+		"name": "EventMonthlyRentSupport"
+	},
+	{
+		"url_path": "/my/notifications",
+		"pages": "my/notifications",
+		"name": "MyNotifications"
+	},
+	{
+		"url_path": "/my/rooms",
+		"pages": "my/rooms",
+		"name": "MyRooms"
+	},
+	{
+		"url_path": "/my/rooms/:uuid",
+		"pages": "my/rooms_detail",
+		"name": "MyRoomsDetail"
+	},
+	{
+		"url_path": "/my/rooms/:uuid/add",
+		"pages": "my/rooms_add",
+		"name": "MyRoomsAdd"
+	},
+	{
+		"url_path": "/my/rooms/:uuid/complete",
+		"pages": "my/rooms_complete",
+		"name": "MyRoomsComplete"
+	},
+	{
+		"url_path": "/my/rooms/:uuid/modify",
+		"pages": "my/rooms_modify",
+		"name": "MyRoomsModify"
+	},
+	{
+		"url_path": "/my/profile",
+		"pages": "my/profile",
+		"name": "MyProfile"
+	},
+	{
+		"url_path": "/my/profile/modify_name",
+		"pages": "my/profile_modify_name",
+		"name": "MyProfileModifyName"
+	},
+	{
+		"url_path": "/my/profile/modify_password",
+		"pages": "my/profile_modify_password",
+		"name": "MyProfileModifyPassword"
+	},
+	{
+		"url_path": "/my/profile/modify_phone",
+		"pages": "my/profile_modify_phone",
+		"name": "MyProfileModifyPhone"
+	},
+	{
+		"url_path": "/my/marketing_setting",
+		"pages": "my/marketing_setting",
+		"name": "MyMarketingSetting"
+	},
+	{
+		"url_path": "/my/membership_withdrawal",
+		"pages": "my/membership_withdrawal",
+		"name": "MyMembershipWithdrawal"
+	},
+	{
+		"url_path": "/my/recommend/items/:date",
+		"pages": "my/recommend_list",
+		"name": "MyRecommendList"
+	},
+	{
+		"url_path": "/my/certification",
+		"pages": "my/certification",
+		"name": "MyCertificationScreen"
+	},
+	{
+		"url_path": "/login",
+		"pages": "login/start",
+		"name": "LoginStart"
+	},
+	{
+		"url_path": "/login/auth_phone",
+		"pages": "login/auth_phone",
+		"name": "LoginAuthPhone"
+	},
+	{
+		"url_path": "/settings",
+		"pages": "settings",
+		"name": "Settings"
+	},
+	{
+		"url_path": "/settings/terms",
+		"pages": "settings/terms",
+		"name": "SettingsTerms"
+	},
+	{
+		"url_path": "/settings/dev_informations",
+		"pages": "settings/dev_informations",
+		"name": "SettingsDevInformations"
+	},
+	{
+		"url_path": "/contact",
+		"pages": "contact",
+		"name": "Contact"
+	},
+	{
+		"url_path": "/home/store",
+		"pages": "home/store",
+		"name": "HomeStore"
+	},
+	{
+		"url_path": "/home/store/items",
+		"pages": "home/store_items",
+		"name": "HomeStoreItems"
+	},
+	{
+		"url_path": "/home/store/items/add",
+		"pages": "home/store_items_add",
+		"name": "HomeStoreItemsAdd"
+	},
+	{
+		"url_path": "/home/store/items/:item_id(\\d+)",
+		"pages": "home/store_items_detail",
+		"name": "HomeStoreItemsDetail",
+		"params": {
+			"item_category": "상가"
+		},
+		"redirect_to_mobile": true
+	},
+	{
+		"url_path": "/home/store/items/recent",
+		"pages": "home/store_items_recent",
+		"name": "HomeStoreItemsRecent"
+	},
+	{
+		"url_path": "/home/store/items/zzim",
+		"pages": "home/store_items_zzim",
+		"name": "HomeStoreItemsZzimList"
+	},
+	{
+		"url_path": "/home/store/map",
+		"pages": "home/store_map",
+		"name": "HomeStoreMap"
+	},
+	{
+		"url_path": "/home/store/facilities",
+		"pages": "home/store_facilities",
+		"name": "HomeStoreFacilities"
+	},
+	{
+		"url_path": "/home/store/business_filter",
+		"pages": "home/store_business_filter",
+		"name": "HomeStoreBusinessFilter"
+	},
+	{
+		"url_path": "/home/request_items_list",
+		"pages": "home/request_items_list",
+		"name": "HomeRequestItemsList"
+	},
+	{
+		"url_path": "/home/zigbang_home",
+		"pages": "home/zigbang_home",
+		"name": "HomeZigbangHome"
+	},
+	{
+		"url_path": "/relieffeedback/servey",
+		"pages": "relieffeedback/servey",
+		"name": "ReliefFeedBackServey"
+	},
+	{
+		"url_path": "/home/store/find_via_business",
+		"pages": "home/store_find_via_business",
+		"name": "HomeStoreFindViaBusiness"
+	},
+	{
+		"url_path": "/vr/preview/:housekey",
+		"pages": "vr/vr_preview",
+		"name": "VrPreview"
+	}
+]
