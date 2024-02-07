@@ -4,7 +4,7 @@
 
  -> https://docs.google.com/presentation/d/1Uv7qsM9my1y0Njvbpkgs_5MM87VdjEyZoe-uY8utQlI/edit#slide=id.g2b78a7adfad_0_252 
 
- -> https://www.figma.com/file/DjqvgO4UlvMqv7syY75cxc/%ED%94%BC%ED%84%B0%ED%8C%AC-%2B-%EB%8B%A4%EB%B0%A9?type=whiteboard&t=yM1OSUG06zeisuI0-0
+ -> [https://www.figma.com/file/DjqvgO4UlvMqv7syY75cxc/%ED%94%BC%ED%84%B0%ED%8C%AC-%2B-%EB%8B%A4%EB%B0%A9?type=whiteboard&t=yM1OSUG06zeisuI0-0](https://www.figma.com/file/DjqvgO4UlvMqv7syY75cxc/NEST-APK?type=whiteboard&node-id=0-1&t=eop0dnKjINlAIy9Y-0)
 
 # Process work-thru
 1. A seller self uploads his/her property for sale/lease
